@@ -1,0 +1,39 @@
+"video.cfg"
+{
+    "Version"								"15"
+	"Version"								"15"
+	"VendorID"								"4318"
+	"DeviceID"								"9989"
+    "setting.defaultres"					"1280" 1280 RESOLUTION WIDTH
+    "setting.defaultresheight"				"960" 960 RESOLUTION HEIGHT
+    "setting.aspectratiomode"				"0"  // 4 BY 3 SCREEN RATIO
+    "setting.refreshrate_numerator"			"239760" // 240 HERTZ MONITOR REFRESH RATE
+    "setting.refreshrate_denominator"		"1000"
+    "setting.fullscreen"					"1"
+    "setting.nowindowborder"				"0"
+    "setting.mat_vsync"						"0" // V-SYNC DISABLED (value of 0 or 1, 0 to disable v-sync)
+    "setting.high_dpi"						"0" // HIGH DPI DISABLED (value of 0 or 1, 0 to disable high dpi scaling)
+    "setting.monitor_index"					"0" // MAIN MONITOR (value depends on how many monitor, was to define which monitor the game will use. 0 for main monitor)
+	
+    // Low latency settings
+    "setting.r_low_latency"					"2"  // NVIDIA REFLEX LOW LATENCY ENABLED + BOOST (value ranged from 0 to 2, 2 for enabled + boost of nvidia reflex low latency)
+    
+    // CPU & GPU settings Best for RTX 4070 Ti SUPER and i7 8700K
+    "setting.cpu_level"						"3"  // (value ranged from 0 to 3, cs2 cpu render pipeline capability)
+    "setting.gpu_level"						"3"  // (value ranged from 0 to 3, cs2 graphics card render pipeline capability)
+    "setting.gpu_mem_level"					"3"  // (value ranged from 0 to 3, 3 for maximum gpu vram utilization)
+    
+    // Core graphics settings
+    "setting.shaderquality"					"0"  // LOW Shader (value of 0 or 1, 1 for high shader quality)
+    "setting.r_texturefilteringquality"		"0"  // BILINEAR TEXTURE FILTERING (value ranged from 0 to 5, 5 for 16x anisotropic filtering)
+    "setting.msaa_samples"					"4"  // 4X MSAA (value ranged from 0 to 5, 5 for 8x msaa)
+    
+    // Detail settings
+    "setting.videocfg_shadow_quality"		"2"  // HIGH SHADOW (value ranged from 0 to 3, 3 for very high shadow quality)
+    "setting.videocfg_dynamic_shadows"		"1"  // DYNAMIC SHADOW ENABLED (value of 0 or 1, 1 to to enable dynamic shadow)
+    "setting.videocfg_texture_detail"		"0"  // LOW TEXTURE (value ranged from 0 to 2, 2 for high texture detail)
+    "setting.videocfg_particle_detail"		"0"  // LOW PARTICLE (value ranged from 0 to 3, 3 for very high particle detail)
+    "setting.videocfg_ao_detail"			"3"  // HIGH AMBIENT OCCLUSION (value ranged from 0 to 3, 3 for high ambient occlusion detail)
+    "setting.videocfg_hdr_detail"			"-1" // QUALITY HDR (value of -2 or -1, -1 for quality hdr detail)
+    "setting.videocfg_fsr_detail"			"0"  // FSR DISABLED (value ranged from 0 to 4, 0 for 100% game render resolution of the maximum monitor resolution or to completely disable fsr)
+}
